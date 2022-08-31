@@ -1,0 +1,44 @@
+.container {
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.formBtn {
+  display: inline-block;
+  width: 100px;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  background-color: skyblue;
+  border: 0.5px solid black;
+}
+
+.formBtn:hover,
+.formBtn:focus {
+  transform: scale(1.1, 1.1);
+
+  transition: all 250ms ease-in-out;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 5px;
+  margin: 15px 0;
+}
+
+.title {
+  text-align: center;
+
+  margin-bottom: 15px;
+}
